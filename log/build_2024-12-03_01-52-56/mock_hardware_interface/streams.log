@@ -1,0 +1,47 @@
+[0.031s] Invoking command in '/home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace_world/ws_1/install/ros2_control_demo_testing:/home/user/ros2_ws/install/workspace_mapping:/home/user/ros2_ws/install/my_robot_controller:/home/user/ros2_ws/install/fake_imu_package:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface -- -j8 -l8
+[0.076s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.275s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.664s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.667s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.674s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.789s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.793s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.839s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.916s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.012s] -- Configuring done
+[4.078s] -- Generating done
+[4.081s] -- Build files have been written to: /home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface
+[4.118s] [35m[1mConsolidate compiler generated dependencies of target mock_hardware[0m
+[4.149s] [ 50%] [32mBuilding CXX object CMakeFiles/mock_hardware.dir/src/mock_hardware.cpp.o[0m
+[9.732s] [100%] [32m[1mLinking CXX shared library libmock_hardware.so[0m
+[10.097s] [100%] Built target mock_hardware
+[10.109s] Invoked command in '/home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace_world/ws_1/install/ros2_control_demo_testing:/home/user/ros2_ws/install/workspace_mapping:/home/user/ros2_ws/install/my_robot_controller:/home/user/ros2_ws/install/fake_imu_package:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface -- -j8 -l8
+[10.167s] Invoking command in '/home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace_world/ws_1/install/ros2_control_demo_testing:/home/user/ros2_ws/install/workspace_mapping:/home/user/ros2_ws/install/my_robot_controller:/home/user/ros2_ws/install/fake_imu_package:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface
+[10.175s] -- Install configuration: ""
+[10.175s] -- Execute custom install script
+[10.176s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/mock_hardware_plugin.xml
+[10.176s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/launch/mock_hardware.launch.py
+[10.176s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/description/robot.urdf
+[10.177s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/config/controllers.yaml
+[10.177s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/lib/libmock_hardware.so
+[10.178s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface//mock_hardware_plugin.xml
+[10.178s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/ament_index/resource_index/package_run_dependencies/mock_hardware_interface
+[10.178s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/ament_index/resource_index/parent_prefix_path/mock_hardware_interface
+[10.179s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/environment/ament_prefix_path.sh
+[10.179s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/environment/ament_prefix_path.dsv
+[10.179s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/environment/path.sh
+[10.180s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/environment/path.dsv
+[10.180s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/local_setup.bash
+[10.180s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/local_setup.sh
+[10.180s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/local_setup.zsh
+[10.181s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/local_setup.dsv
+[10.181s] -- Symlinking: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/package.dsv
+[10.191s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/ament_index/resource_index/packages/mock_hardware_interface
+[10.191s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mock_hardware_interface
+[10.191s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/cmake/mock_hardware_interfaceConfig.cmake
+[10.192s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/cmake/mock_hardware_interfaceConfig-version.cmake
+[10.192s] -- Up-to-date symlink: /home/user/workspace_world/mock_HW_ws/install/mock_hardware_interface/share/mock_hardware_interface/package.xml
+[10.194s] Invoked command in '/home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/workspace_world/ws_1/install/ros2_control_demo_testing:/home/user/ros2_ws/install/workspace_mapping:/home/user/ros2_ws/install/my_robot_controller:/home/user/ros2_ws/install/fake_imu_package:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface

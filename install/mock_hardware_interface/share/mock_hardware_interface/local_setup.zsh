@@ -1,0 +1,1 @@
+/home/user/workspace_world/mock_HW_ws/build/mock_hardware_interface/ament_cmake_environment_hooks/local_setup.zsh

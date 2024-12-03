@@ -1,0 +1,30 @@
+<robot name="mock_robot">
+    <link name="base_link"/>
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+    </joint>
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+    </joint>
+    <link name="left_wheel"/>
+    <link name="right_wheel"/>
+    
+      <!-- ROS 2 Control Tag -->
+  <ros2_control name="MockSystem" type="system">
+    <hardware>
+      <plugin>MockHardware</plugin>
+    </hardware>
+    <joint name="left_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="velocity"/>
+      <state_interface name="position"/>
+    </joint>
+    <joint name="right_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="velocity"/>
+      <state_interface name="position"/>
+    </joint>
+  </ros2_control>
+</robot>
